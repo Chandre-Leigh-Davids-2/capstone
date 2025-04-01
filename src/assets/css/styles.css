@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+/*  font-family: "Fredoka", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap");
+/* font-family: "Cherry Bomb One", system-ui; */
+
+#app {
+  overflow-x: hidden;
+}
+
+/* Big Screen Nav */
+.nav {
+  background-color: #ffe6e8;
+}
+.logo {
+  width: 10vw !important;
+  height: 7vh;
+  margin: 0.3%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.img {
+  border-radius: 50px;
+}
+.routes {
+  width: 100%;
+  padding: 0 10% 0 10%;
+}
+@media screen and (max-width: 1048px) {
+  .routes {
+    width: 100%;
+    padding: 0 2% 0 2%;
+  }
+  .routes > p > .a {
+    font-size: 2vh;
+    height: max-content;
+    text-decoration: none;
+    color: black;
+    font-family: "Cherry Bomb One", system-ui;
+  }
+  .logo {
+    width: 10vw !important;
+    height: 5vh !important;
+    margin: 0.3%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 110px !important;
+    height: 5vh;
+    margin: 0.3%;
+    margin-top: 4.5px;
+  }
+}
+.routes > p > .a {
+  font-size: 2.8vh;
+  height: max-content;
+  text-decoration: none;
+  color: black;
+  font-family: "Cherry Bomb One", system-ui;
+}
+p {
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+}
+.searchBar {
+  width: 250px;
+  height: 3.8vh;
+  border-radius: 10px;
+  text-indent: 10px;
+  border: 1px solid black;
+  box-shadow: 1.5px 2.5px 2px rgb(71, 71, 71);
+}
+.icons {
+  padding: 0 10% 0 10%;
+}
+i {
+  margin-right: 18px;
+}
+
+/* Small Screen Nav */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  text-indent: 13px;
+  top: 25%;
+  width: 100%;
+  margin-top: 30px;
+  font-family: "Cherry Bomb One", system-ui;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 6vh;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #757575;
+  text-shadow: 1px 3px 2px solid black;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.logoMobile {
+  width: 180px !important;
+  height: 10vh;
+  position: absolute;
+  top: 42px;
+  left: 0px;
+}
+.iconsMobile {
+  position: absolute;
+  bottom: 0;
+  width: 180px !important;
+}
+
+/* Footer */
+
+.main {
+  background-image: linear-gradient(#ffe6e8, white);
+  padding: 25px 110px 25px 110px;
+}
+.main > .row > div > h5 {
+  font-family: "Cherry Bomb One", system-ui;
+  font-size: 1.7vw;
+  margin-bottom: 30px;
+}
+.main > .row > div > p {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1vw;
+}
+@media screen and (max-width: 1139px) {
+  .main > .row > div > h5 {
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: 1.7vw;
+    margin-bottom: 30px;
+  }
+  .main > .row > div > p {
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.4vw;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main > .row > div > h5 {
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: 2.5vw;
+    margin-bottom: 30px;
+  }
+  .main > .row > div > p {
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.6vw;
+  }
+  .main {
+    background-image: linear-gradient(#ffe6e8, white);
+    padding: 15px 70px 15px 70px;
+  }
+  i{
+    font-size: 2.7vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main > .row > div > h5 {
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: 5vw;
+    margin-bottom: 30px;
+  }
+  .main > .row > div > p {
+    font-family: "Fredoka", sans-serif;
+    font-size: 3vw;
+  }
+  .main {
+    background-image: linear-gradient(#ffe6e8, white);
+    padding: 10px 40px 10px 40px;
+  }
+  i{
+    font-size: 2.7vw;
+  }
+}
