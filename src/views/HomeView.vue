@@ -83,137 +83,137 @@
       <div v-if="getSales.length === 0">
         <div class="row">
           <CardComp class="mb-5 x col-md-4">
-                    <template #cardHeader>
-                        <div class="row y d-flex justify-content-between">
-                            <p class="item-name">product.p_name </p>
-                            <div class="y d-flex justify-content-end align-content-center">
-                                <router-link to="/store" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="cart"><i class="bi bi-cart-check"></i></button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardBody>
-                        <div class="card-details">
-                            <div class="image">
-                                <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardFooter>
-                        <div class="row d-flex justify-content-between">
-                            <p class="p d-flex align-content-center ">product.p_price</p>
-                            <div class="y d-flex justify-content-end">
-                                <router-link to="/store" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="view">View More</button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                </CardComp>
+            <template #cardHeader>
+              <div class="row y d-flex justify-content-between">
+                <p class="item-name">product.p_name </p>
+                <div class="y d-flex justify-content-end align-content-center">
+                  <router-link to="/store" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="cart" @click="error"><i class="bi bi-cart-check"></i></button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+            <template #cardBody>
+              <div class="card-details">
+                <div class="image">
+                  <img src="../assets/images/plush_mm.png" alt="product" width="260px" height="auto">
+                </div>
+              </div>
+            </template>
+            <template #cardFooter>
+              <div class="row d-flex justify-content-between">
+                <p class="p d-flex align-content-center ">product.p_price</p>
+                <div class="y d-flex justify-content-end">
+                  <router-link to="/store" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="view">View More</button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+          </CardComp>
           <CardComp class="mb-5 x col-md-4">
-                    <template #cardHeader>
-                        <div class="row y d-flex justify-content-between">
-                            <p class="item-name">product.p_name </p>
-                            <div class="y d-flex justify-content-end align-content-center">
-                                <router-link to="/store" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="cart"><i class="bi bi-cart-check"></i></button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardBody>
-                        <div class="card-details">
-                            <div class="image">
-                                <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardFooter>
-                        <div class="row d-flex justify-content-between">
-                            <p class="p d-flex align-content-center ">product.p_price</p>
-                            <div class="y d-flex justify-content-end">
-                                <router-link to="/store" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="view">View More</button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                </CardComp>
+            <template #cardHeader>
+              <div class="row y d-flex justify-content-between">
+                <p class="item-name">product.p_name </p>
+                <div class="y d-flex justify-content-end align-content-center">
+                  <router-link to="/store" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+            <template #cardBody>
+              <div class="card-details">
+                <div class="image">
+                  <img src="../assets/images/hoodie_km.png" alt="product" width="260px" height="auto">
+                </div>
+              </div>
+            </template>
+            <template #cardFooter>
+              <div class="row d-flex justify-content-between">
+                <p class="p d-flex align-content-center ">product.p_price</p>
+                <div class="y d-flex justify-content-end">
+                  <router-link to="/store" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="view">View More</button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+          </CardComp>
           <CardComp class="mb-5 x col-md-4">
-                    <template #cardHeader>
-                        <div class="row y d-flex justify-content-between">
-                            <p class="item-name">product.p_name </p>
-                            <div class="y d-flex justify-content-end align-content-center">
-                                <router-link to="/store" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="cart"><i class="bi bi-cart-check"></i></button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardBody>
-                        <div class="card-details">
-                            <div class="image">
-                                <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardFooter>
-                        <div class="row d-flex justify-content-between">
-                            <p class="p d-flex align-content-center ">product.p_price</p>
-                            <div class="y d-flex justify-content-end">
-                                <router-link to="/store" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="view">View More</button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                </CardComp>
+            <template #cardHeader>
+              <div class="row y d-flex justify-content-between">
+                <p class="item-name">product.p_name </p>
+                <div class="y d-flex justify-content-end align-content-center">
+                  <router-link to="/store" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+            <template #cardBody>
+              <div class="card-details">
+                <div class="image">
+                  <img src="../assets/images/top_po.webp" alt="product" width="260px" height="auto">
+                </div>
+              </div>
+            </template>
+            <template #cardFooter>
+              <div class="row d-flex justify-content-between">
+                <p class="p d-flex align-content-center ">product.p_price</p>
+                <div class="y d-flex justify-content-end">
+                  <router-link to="/store" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="view">View More</button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+          </CardComp>
           <CardComp class="mb-5 x col-md-4">
-                    <template #cardHeader>
-                        <div class="row y d-flex justify-content-between">
-                            <p class="item-name">product.p_name </p>
-                            <div class="y d-flex justify-content-end align-content-center">
-                                <router-link to="/store" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="cart"><i class="bi bi-cart-check"></i></button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardBody>
-                        <div class="card-details">
-                            <div class="image">
-                                <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardFooter>
-                        <div class="row d-flex justify-content-between">
-                            <p class="p d-flex align-content-center ">product.p_price</p>
-                            <div class="y d-flex justify-content-end">
-                                <router-link to="/store" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="view">View More</button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                </CardComp>
+            <template #cardHeader>
+              <div class="row y d-flex justify-content-between">
+                <p class="item-name">product.p_name </p>
+                <div class="y d-flex justify-content-end align-content-center">
+                  <router-link to="/store" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+            <template #cardBody>
+              <div class="card-details">
+                <div class="image">
+                  <img src="../assets/images/hoodie_km.png" alt="product" width="260px" height="auto">
+                </div>
+              </div>
+            </template>
+            <template #cardFooter>
+              <div class="row d-flex justify-content-between">
+                <p class="p d-flex align-content-center ">product.p_price</p>
+                <div class="y d-flex justify-content-end">
+                  <router-link to="/store" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="view">View More</button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+          </CardComp>
         </div>
       </div>
 
@@ -222,38 +222,38 @@
         <div class="row slider-container">
           <!-- Loop through products (card component) -->
           <CardComp v-for="product in getSales" :key="product.product_id" class="mb-5 x col-md-4">
-                    <template #cardHeader>
-                        <div class="row y d-flex justify-content-between">
-                            <p class="item-name">{{ product.p_name }}</p>
-                            <div class="y d-flex justify-content-end align-content-center">
-                                <router-link class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="cart"><i class="bi bi-cart-check"></i></button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardBody>
-                        <div class="card-details">
-                            <div class="image">
-                                <img :src="product.p_image" :alt="product.p_name" width="260px" height="auto">
-                            </div>
-                        </div>
-                    </template>
-                    <template #cardFooter>
-                        <div class="row d-flex justify-content-between">
-                            <p class="p d-flex align-content-center ">$ {{ product.p_price }}</p>
-                            <div class="y d-flex justify-content-end">
-                                <router-link :to="{ name: 'product', params: { id: product.product_id } }" class="y">
-                                    <div class="d-flex justify-content-end">
-                                        <button class="view">View More</button>
-                                    </div>
-                                </router-link>
-                            </div>
-                        </div>
-                    </template>
-                </CardComp>
+            <template #cardHeader>
+              <div class="row y d-flex justify-content-between">
+                <p class="item-name">{{ product.p_name }}</p>
+                <div class="y d-flex justify-content-end align-content-center">
+                  <router-link class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+            <template #cardBody>
+              <div class="card-details">
+                <div class="image">
+                  <img :src="product.p_image" :alt="product.p_name" width="260px" height="auto">
+                </div>
+              </div>
+            </template>
+            <template #cardFooter>
+              <div class="row d-flex justify-content-between">
+                <p class="p d-flex align-content-center ">$ {{ product.p_price }}</p>
+                <div class="y d-flex justify-content-end">
+                  <router-link :to="{ name: 'product', params: { id: product.product_id } }" class="y">
+                    <div class="d-flex justify-content-end">
+                      <button class="view">View More</button>
+                    </div>
+                  </router-link>
+                </div>
+              </div>
+            </template>
+          </CardComp>
         </div>
       </div>
 
@@ -263,20 +263,33 @@
 </template>
 <script>
 import CardComp from '@/components/CardComp.vue';
+import Swal from "sweetalert2";
 
 export default {
-    components: {
-        CardComp
-    },
-    computed: {
-        // This is now a computed property that pulls sales from Vuex store
-        getSales() {
-            return this.$store.state.sales; // Access sales from the Vuex store
-        }
-    },
-    mounted() {
-        this.$store.dispatch('fetchSales'); // Fetch sales when the component mounts
+  components: {
+    CardComp
+  },
+  computed: {
+    // This is now a computed property that pulls sales from Vuex store
+    getSales() {
+      return this.$store.state.sales; // Access sales from the Vuex store
     }
+  },
+  methods: {
+    error() {
+      Swal.fire({
+        title: "ERROR",
+        text: "It seems like there might be a connection issue",
+        imageUrl: hehe,
+        imageWidth: 200,
+        imageHeight: 200,
+        imageAlt: "Custom image"
+      });
+    }
+  },
+  mounted() {
+    this.$store.dispatch('fetchSales'); // Fetch sales when the component mounts
+  }
 }
 </script>
 <style scoped>
@@ -399,59 +412,60 @@ h3 {
 /*  */
 
 .image {
-    width: 80%;
+  width: 80%;
 }
 
 /* CardComp styles */
 .x {
-    background-color: rgb(247, 247, 247);
+  background-color: rgb(247, 247, 247);
 }
 
 button {
-    width: fit-content !important;
-    margin: 0;
-    padding: 2px 10px 2px 10px;
-    border-radius: 8px;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: transparent;
+  width: fit-content !important;
+  margin: 0;
+  padding: 2px 10px 2px 10px;
+  border-radius: 8px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: transparent;
 }
 
 .view {
-    width: fit-content !important;
-    margin: 0;
-    padding: 2px 10px 2px 10px;
-    background-color: rgb(251, 251, 116);
-    border-radius: 12px;
-    border: 2px solid rgb(255, 255, 255);
+  width: fit-content !important;
+  margin: 0;
+  padding: 2px 10px 2px 10px;
+  background-color: rgb(251, 251, 116);
+  border-radius: 12px;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .purchase {
-    width: fit-content;
-    padding: 2px 10px 2px 10px;
+  width: fit-content;
+  padding: 2px 10px 2px 10px;
 }
 
 p {
-    width: 70%;
+  width: 70%;
 }
 
 .p {
-    width: 50%;
+  width: 50%;
 }
 
 .y {
-    width: fit-content !important;
-    align-content: center;
-    text-decoration: none;
+  width: fit-content !important;
+  align-content: center;
+  text-decoration: none;
 }
 
 i {
-    padding: 5px;
-    margin: 0;
-    background-color: transparent;
-    font-size: 3.8w;
-    border: 1px solid black;
-    border-radius: 45%;
+  padding: 5px;
+  margin: 0;
+  background-color: transparent;
+  font-size: 3.8w;
+  border: 1px solid black;
+  border-radius: 45%;
 }
+
 .slider-container {
   display: flex;
   flex-wrap: nowrap;
@@ -463,12 +477,15 @@ i {
 }
 
 /* Optional: smooth snap-to-scroll */
-.slider-container > * {
+.slider-container>* {
   scroll-snap-align: center;
   flex: 0 0 auto;
-  width: 300px; /* Set width to  avoid card shrinking */
+  width: 300px;
+  /* Set width to  avoid card shrinking */
 }
+
 .slider-container::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Opera */
+  display: none;
+  /* Chrome, Safari, and Opera */
 }
 </style>

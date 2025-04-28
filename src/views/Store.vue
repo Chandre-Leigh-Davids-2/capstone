@@ -9,7 +9,7 @@
                 <div class="y d-flex justify-content-end align-content-center">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
                     </div>
                   </router-link>
                 </div>
@@ -18,7 +18,7 @@
             <template #cardBody>
               <div class="card-details">
                 <div class="image">
-                  <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
+                  <img src="../assets/images/hoodie_km.png" alt="product" width="260px" height="auto">
                 </div>
               </div>
             </template>
@@ -28,7 +28,7 @@
                 <div class="y d-flex justify-content-end">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="view">View More</button>
+                      <button class="view"  @click="error">View More</button>
                     </div>
                   </router-link>
                 </div>
@@ -42,7 +42,7 @@
                 <div class="y d-flex justify-content-end align-content-center">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
                     </div>
                   </router-link>
                 </div>
@@ -51,7 +51,7 @@
             <template #cardBody>
               <div class="card-details">
                 <div class="image">
-                  <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
+                  <img src="../assets/images/top_mm.webp" alt="product" width="260px" height="auto">
                 </div>
               </div>
             </template>
@@ -61,7 +61,7 @@
                 <div class="y d-flex justify-content-end">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="view">View More</button>
+                      <button class="view"  @click="error">View More</button>
                     </div>
                   </router-link>
                 </div>
@@ -75,7 +75,7 @@
                 <div class="y d-flex justify-content-end align-content-center">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
                     </div>
                   </router-link>
                 </div>
@@ -84,7 +84,7 @@
             <template #cardBody>
               <div class="card-details">
                 <div class="image">
-                  <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
+                  <img src="../assets/images/plush_mm.png" alt="product" width="260px" height="auto">
                 </div>
               </div>
             </template>
@@ -94,7 +94,7 @@
                 <div class="y d-flex justify-content-end">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="view">View More</button>
+                      <button class="view"  @click="error">View More</button>
                     </div>
                   </router-link>
                 </div>
@@ -108,7 +108,7 @@
                 <div class="y d-flex justify-content-end align-content-center">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
                     </div>
                   </router-link>
                 </div>
@@ -117,7 +117,7 @@
             <template #cardBody>
               <div class="card-details">
                 <div class="image">
-                  <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
+                  <img src="../assets/images/plush_po.png" alt="product" width="260px" height="auto">
                 </div>
               </div>
             </template>
@@ -127,7 +127,7 @@
                 <div class="y d-flex justify-content-end">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="view">View More</button>
+                      <button class="view"  @click="error">View More</button>
                     </div>
                   </router-link>
                 </div>
@@ -141,7 +141,7 @@
                 <div class="y d-flex justify-content-end align-content-center">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
                     </div>
                   </router-link>
                 </div>
@@ -150,7 +150,7 @@
             <template #cardBody>
               <div class="card-details">
                 <div class="image">
-                  <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
+                  <img src="../assets/images/plush_pom.png" alt="product" width="260px" height="auto">
                 </div>
               </div>
             </template>
@@ -160,7 +160,7 @@
                 <div class="y d-flex justify-content-end">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="view">View More</button>
+                      <button class="view"  @click="error">View More</button>
                     </div>
                   </router-link>
                 </div>
@@ -174,7 +174,7 @@
                 <div class="y d-flex justify-content-end align-content-center">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
                     </div>
                   </router-link>
                 </div>
@@ -183,7 +183,7 @@
             <template #cardBody>
               <div class="card-details">
                 <div class="image">
-                  <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
+                  <img src="../assets/images/top_pom.jpg" alt="product" width="260px" height="auto">
                 </div>
               </div>
             </template>
@@ -193,7 +193,7 @@
                 <div class="y d-flex justify-content-end">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="view">View More</button>
+                      <button class="view"  @click="error">View More</button>
                     </div>
                   </router-link>
                 </div>
@@ -207,7 +207,7 @@
                 <div class="y d-flex justify-content-end align-content-center">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
                     </div>
                   </router-link>
                 </div>
@@ -216,7 +216,7 @@
             <template #cardBody>
               <div class="card-details">
                 <div class="image">
-                  <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
+                  <img src="../assets/images/top_po.webp" alt="product" width="260px" height="auto">
                 </div>
               </div>
             </template>
@@ -226,7 +226,7 @@
                 <div class="y d-flex justify-content-end">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="view">View More</button>
+                      <button class="view"  @click="error">View More</button>
                     </div>
                   </router-link>
                 </div>
@@ -240,7 +240,7 @@
                 <div class="y d-flex justify-content-end align-content-center">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="cart"><i class="bi bi-cart-check"></i></button>
+                      <button class="cart"  @click="error"><i class="bi bi-cart-check"></i></button>
                     </div>
                   </router-link>
                 </div>
@@ -249,7 +249,7 @@
             <template #cardBody>
               <div class="card-details">
                 <div class="image">
-                  <img src="../assets/images/icon_hk.webp" alt="product" width="260px" height="auto">
+                  <img src="../assets/images/hoodie_hk.png" alt="product" width="260px" height="auto">
                 </div>
               </div>
             </template>
@@ -259,7 +259,7 @@
                 <div class="y d-flex justify-content-end">
                   <router-link to="/store" class="y">
                     <div class="d-flex justify-content-end">
-                      <button class="view">View More</button>
+                      <button class="view"  @click="error">View More</button>
                     </div>
                   </router-link>
                 </div>
@@ -308,6 +308,8 @@
 
 <script>
 import CardComp from '@/components/CardComp.vue';
+import Swal from "sweetalert2";
+import hehe from '../assets/images/oops.jpeg'
 
 export default {
   components: {
@@ -317,6 +319,18 @@ export default {
     // This is now a computed property that pulls products from Vuex store
     getProducts() {
       return this.$store.state.products; // Access products from the Vuex store
+    }
+  },
+  methods: {
+    error() {
+      Swal.fire({
+        title: "ERROR",
+        text: "It seems like there might be a connection issue",
+        imageUrl: hehe,
+        imageWidth: 200,
+        imageHeight: 200,
+        imageAlt: "Custom image"
+      });
     }
   },
   mounted() {

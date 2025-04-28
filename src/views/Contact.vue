@@ -1,6 +1,6 @@
 <template>
     <div class="mainDiv">
-        
+        <p>This page is under re-design</p>
     </div>
 </template>
 <script>
