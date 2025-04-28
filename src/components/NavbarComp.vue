@@ -8,7 +8,7 @@
           <router-link to="/" class="a">Home</router-link>
           <router-link to="/about" class="a">About Us</router-link>
           <router-link to="/store" class="a">Store</router-link>
-          <router-link to="/sale" class="a">Sale</router-link>
+          <router-link to="/sale" class="a">Contact</router-link>
           <div class="social mt-4">
             <i class="bi bi-instagram"></i>
             <i class="bi bi-twitter-x"></i>
@@ -40,7 +40,7 @@
           <p><router-link to="/" class="a">Home</router-link></p>
           <p><router-link to="/about" class="a">About Us</router-link></p>
           <p><router-link to="/store" class="a">Store</router-link></p>
-          <p><router-link to="/sale" class="a">Sale</router-link></p>
+          <p><router-link to="/contact" class="a">Contact</router-link></p>
           <p><input type="text" placeholder="Search" class="searchBar"></p>
         </div>
         <div class="icons d-flex justify-content-even align-items-center px-2">
